@@ -3,6 +3,10 @@
 
 name: Build and deploy ASP app to Azure Web App - BrasilDemoApp
 
+defaults:
+  run:
+    working-directory: AwesomeWebApp
+
 on:
   push:
     branches:
